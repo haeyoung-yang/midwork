@@ -1,0 +1,116 @@
+.back {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: black;
+}
+.box {
+    width: 100%;
+    height: 60%;
+    position: absolute;
+    background-color: black;
+}
+
+.jpg {
+
+    width: 100%;
+    height: 90%;
+    position: absolute;
+}
+
+.spotlight {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: radial-gradient(circle at center center, transparent 160px,
+    rgba(0, 0, 0, 0.85) 200px);
+    
+
+    
+}
+.font {
+    width: 90%;
+    position: fixed;
+    bottom: 0%;
+    left: 5%;
+
+    animation-name: opacityfont;
+    animation-delay: 0s;
+    animation-duration : 5s;
+    animation-fill-mode:both;
+    animation-iteration-count: infinite;
+}
+.font2 {
+    width: 40%;
+    position: absolute;
+    bottom : 0%;
+    left: 30%;
+
+    animation-name: opacityfont2;
+    animation-delay: 1s;
+    animation-duration : 5s;
+    animation-fill-mode:both;
+    animation-iteration-count: infinite;
+}
+.font3 {
+    width: 30%;
+    position: absolute;
+    bottom : 35%;
+    left: 0%;
+
+    animation-name: opacityfont2;
+    animation-delay: 1s;
+    animation-duration : 5s;
+    animation-fill-mode:both;
+    animation-iteration-count: infinite;
+}
+.font4 {
+    width: 30%;
+    position: absolute;
+    bottom : 35%;
+    left: 33%;
+
+    animation-name: opacityfont2;
+    animation-delay: 2s;
+    animation-duration : 5s;
+    animation-fill-mode:both;
+    animation-iteration-count: infinite;
+}
+.font5 {
+    width: 30%;
+    position: absolute;
+    bottom : 35%;
+    left: 67%;
+
+    animation-name: opacityfont2;
+    animation-delay: 3s;
+    animation-duration : 5s;
+    animation-fill-mode:both;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes opacityfont {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 30%;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes opacityfont2 {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 50%;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
